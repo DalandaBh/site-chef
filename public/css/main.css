@@ -1,0 +1,78 @@
+.carousel img {
+  -webkit-filter: brightness(20%);
+          filter: brightness(20%);
+}
+
+.carousel-indicators li {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 100%;
+}
+
+.carousel-caption {
+  font-family: 'Courgette', cursive;
+  bottom: 15%;
+  margin: 0 8%;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+}
+
+.carousel-caption p .span-1 {
+  font-size: 4rem;
+}
+
+.carousel-caption p .rouge {
+  font-size: 4rem;
+  color: #c42d40;
+}
+
+.carousel-caption p .span-2 {
+  font-size: 3rem;
+}
+
+.carousel-caption p .button-1 {
+  background-color: white;
+  color: black;
+}
+
+.carousel-caption p .button-2 {
+  background-color: #c42d40;
+  color: black;
+}
+
+nav {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+nav img {
+  height: 5%;
+  margin: 2% 4% 0 4%;
+}
+
+nav .menu {
+  border-top: 2px solid rgba(255, 255, 255, 0.521);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.397);
+  margin-top: 4%;
+}
+
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 60%;
+}
+
+nav a:hover {
+  background-color: #c42d40;
+  color: white;
+}
+
+nav .bg {
+  background-color: #c42d40;
+}
+/*# sourceMappingURL=main.css.map */
