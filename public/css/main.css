@@ -1,3 +1,7 @@
+body {
+  background-image: url(./../../public/images/main_bg.jpg);
+}
+
 .carousel img {
   -webkit-filter: brightness(20%);
           filter: brightness(20%);
@@ -10,12 +14,12 @@
 }
 
 .carousel-caption {
-  font-family: 'Courgette', cursive;
   bottom: 15%;
   margin: 0 8%;
 }
 
 .carousel-caption p {
+  font-family: 'Courgette', cursive;
   font-size: 2rem;
 }
 
@@ -39,7 +43,7 @@
 
 .carousel-caption p .button-2 {
   background-color: #c42d40;
-  color: black;
+  color: white;
 }
 
 nav {
@@ -74,5 +78,34 @@ nav a:hover {
 
 nav .bg {
   background-color: #c42d40;
+}
+
+.section-1 {
+  background-color: #fff;
+  border: 2px solid rgba(15, 14, 14, 0);
+  margin-top: 5%;
+}
+
+.our-story {
+  text-align: center;
+  margin: 3% 30%;
+}
+
+.our-story h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+}
+
+.our-story h5 #rouge {
+  color: #c42d40;
+  font-size: 2.2rem;
+}
+
+.our-story h5 .fa-concierge-bell {
+  color: rgba(128, 128, 128, 0.925);
+}
+
+.our-story h5 p {
+  color: rgba(128, 128, 128, 0.925);
 }
 /*# sourceMappingURL=main.css.map */
