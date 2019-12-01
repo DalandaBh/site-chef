@@ -1,3 +1,4 @@
+@import url(/Users/adjini/Desktop/site-du-chef/node_modules/bootstrap/dist/css/bootstrap.css);
 body {
   background-image: url(./../../public/images/main_bg.jpg);
 }
@@ -11,11 +12,6 @@ body {
   width: 0.8em;
   height: 0.8em;
   border-radius: 100%;
-}
-
-.carousel-caption {
-  bottom: 15%;
-  margin: 0 8%;
 }
 
 .carousel-caption p {
@@ -36,14 +32,13 @@ body {
   font-size: 3rem;
 }
 
-.carousel-caption p .button-1 {
-  background-color: white;
-  color: black;
-}
-
-.carousel-caption p .button-2 {
-  background-color: #c42d40;
-  color: white;
+.carousel .carousel-inner .carousel-item .carousel-caption .btn {
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  border-radius: 50px;
+  margin-top: 3%;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  padding: 2% 4%;
 }
 
 nav {
@@ -80,32 +75,105 @@ nav .bg {
   background-color: #c42d40;
 }
 
-.section-1 {
-  background-color: #fff;
-  border: 2px solid rgba(15, 14, 14, 0);
-  margin-top: 5%;
+header {
+  position: relative;
 }
 
-.our-story {
+header .bottom-deco {
+  background-image: url(./../../public/images/bottom_decoration_img.png);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15px;
+  z-index: 5;
+}
+
+.section-1 {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid rgba(15, 14, 14, 0);
+  margin-top: 3%;
+}
+
+.section-1 .our-story {
   text-align: center;
   margin: 3% 30%;
 }
 
-.our-story h5 {
+.section-1 .our-story h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
-.our-story h5 #rouge {
+.section-1 .our-story h5 .rouge {
   color: #c42d40;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
-.our-story h5 .fa-concierge-bell {
-  color: rgba(128, 128, 128, 0.925);
+.section-1 .our-story h5 .fa-concierge-bell {
+  color: white;
 }
 
-.our-story h5 p {
-  color: rgba(128, 128, 128, 0.925);
+.title {
+  margin-top: 2%;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card-img {
+  border-radius: 100%;
+  border: solid 3px grey;
+}
+
+.colonne-2 {
+  display: inline-block;
+}
+
+.section-2 {
+  background-color: black;
+  height: auto;
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+}
+
+.section-2 h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.6rem;
+}
+
+.section-2 h5 .rouge {
+  color: #c42d40;
+  font-size: 2.3rem;
+}
+
+.titre-chef {
+  padding: 6% 0;
+}
+
+.chefs {
+  margin: 0 4%;
 }
 /*# sourceMappingURL=main.css.map */

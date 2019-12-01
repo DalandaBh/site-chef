@@ -1,122 +1,131 @@
-//variables
-$color1: #c42d40;
-//Body
-body {
-    background-image: url(./../../public/images/main_bg.jpg)
-}
-//Carousel
-.carousel {
-    img {
-        filter: brightness(20%);
-    }
-}
-.carousel-indicators {
-    li {
-    width: 0.8em;
-    height: 0.8em;
-    border-radius: 100%;
-    }
-}
-.carousel-caption {
+@import './variables';
+@import './body';
+@import './carousel';
+@import './nav';
+@import './section-1';
+@import './section-2';
+@import './../../node_modules/bootstrap/dist/css/bootstrap.css';
 
-    bottom: 15%;
-    margin: 0 8%;
-    p {
-        font-family: 'Courgette', cursive;
-        font-size: 2rem;
-        .span-1 {
-            font-size: 4rem;
-            }
-        .rouge {
-            font-size: 4rem;
-            color: $color1;
-        }
-        .span-2 {
-            font-size: 3rem;
-        }
-    .button-1
-    {
-        background-color: white;
-        color: black;
-    }
-    .button-2 {
-        background-color: $color1;
-        color: white;
-    }
+
+
+
+
+//Carousel
+// .carousel {
+//     img {
+//         filter: brightness(20%);
+//     }
+// }
+// .carousel-indicators {
+//     li {
+//     width: 0.8em;
+//     height: 0.8em;
+//     border-radius: 100%;
+//     }
+// }
+// .carousel-caption {
+
+//     bottom: 15%;
+//     margin: 0 8%;
+//     p {
+//         font-family: 'Courgette', cursive;
+//         font-size: 2rem;
+//         .span-1 {
+//             font-size: 4rem;
+//             }
+//         .rouge {
+//             font-size: 4rem;
+//             color: $color1;
+//         }
+//         .span-2 {
+//             font-size: 3rem;
+//         }
+//     .button-1
+//     {
+//         background-color: white;
+//         color: black;
+//     }
+//     .button-2 {
+//         background-color: $color1;
+//         color: white;
+//     }
         
-    }
-}
-//Nav
-nav {
-    z-index: 1;
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin: auto;
-    img {
-        height: 5%;
-        margin: 2% 4% 0 4%;
-    }
+//     }
+// }
+// //Nav
+// nav {
+//     z-index: 1;
+//     position: fixed;
+//     left: 0;
+//     right: 0;
+//     margin: auto;
+   
+//     img {
+//         height: 5%;
+//         margin: 2% 4% 0 4%;
+//     }
   
 
-    .menu {
-        border-top: 2px solid rgba(255, 255, 255, 0.521);
-        border-bottom: 2px solid rgba(255, 255, 255, 0.397);
-        margin-top: 4%;
-            }
+//     .menu {
+//         border-top: 2px solid rgba(255, 255, 255, 0.521);
+//         border-bottom: 2px solid rgba(255, 255, 255, 0.397);
+//         margin-top: 4%;
+//             }
        
-        // margin-left: %;
-        a {
-            color: white;
-            //text-decoration: none;
-            text-transform: uppercase;
-            font-size: 60%;
-            //margin-top: 1%;
+//         // margin-left: %;
+//         a {
+//             color: white;
+//             //text-decoration: none;
+//             text-transform: uppercase;
+//             font-size: 60%;
+//             //margin-top: 1%;
        
-            }
-        a:hover {
-            background-color: $color1;
-            color: white;
-        }
-        .bg {
-            background-color: $color1;
-        }
-}
+//             }
+//         a:hover {
+//             background-color: $color1;
+//             color: white;
+//         }
+//         .bg {
+//             background-color: $color1;
+//         }
+// }
 
-//Section-1
-.section-1 {
-    background-color: #fff;
-    border: 2px solid rgba(15, 14, 14, 0);
-    margin-top: 5%;
-}
-.our-story  {
-    text-align: center;
-    margin : 3% 30%;
-    h5 {
+// //Section-1
+// .section-1 {
+//     position: relative;
+//     background-color: #fff;
+//     border: 2px solid rgba(15, 14, 14, 0);
+//     margin-top: 5%;
+
+//     .our-story  {
+//         text-align: center;
+//         margin : 3% 30%;
+//         h5 {
         
-        font-family: 'Courgette', cursive;
-        font-size: 1.5rem;
-        .rouge1 {
-            color: $color1;
-            font-size: 2.2rem;
+//             font-family: 'Courgette', cursive;
+//             font-size: 1.5rem;
+//             #rouge {
+//                 color: $color1;
+//                 font-size: 2.2rem;
     
-        }
-        .fa-concierge-bell {
-            color: rgba(128, 128, 128, 0.925);
-    }
-    
-    }
-}
-.menu-list {
-    text-align: center;
-    h5 {
-        
-        font-family: 'Courgette', cursive;
-        font-size: 1.5rem;
-        .rouge1 {
-            color: $color1;
-            font-size: 2.2rem;
-    
-        }
-    }
-}
+//             }
+//             .fa-concierge-bell {
+//                 color: rgba(128, 128, 128, 0.925);
+//             }
+//     .menu-list {
+//         text-align: center;
+//         h5 {
+                    
+//             font-family: 'Courgette', cursive;
+//             font-size: 1.5rem;
+//             .rouge1 {
+//                 color: $color1;
+//                 font-size: 2.2rem;
+                
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+

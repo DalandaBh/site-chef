@@ -1,0 +1,24 @@
+.section-2 {
+    background-color: black;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    h5 {
+        font-family: 'Courgette', cursive;
+        font-size: 1.6rem;
+        
+        .rouge {
+            color: $color1;
+            font-size: 2.3rem;
+    
+        }
+    }
+    
+}
+ .titre-chef{
+     padding: 6% 0;
+ }
+.chefs {
+    margin: 0 4%;
+}

@@ -1,0 +1,58 @@
+//Carousel
+.carousel {
+    img {
+        filter: brightness(20%);
+    }
+}
+.carousel-indicators {
+    li {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 100%;
+    }
+}
+.carousel-caption {
+
+//     bottom: 15%;
+//     margin: 0 8%;     
+    p {
+         font-family: 'Courgette', cursive;
+         font-size: 2rem;
+        .span-1 {
+             font-size: 4rem;
+             }
+         .rouge {
+             font-size: 4rem;
+             color: $color1;
+         }
+         .span-2 {
+             font-size: 3rem;
+        }
+//     .button-1
+//     {
+//         background-color: white;
+//         color: black;
+//     }
+//     .button-2 {
+//         background-color: $color1;
+//         color: white;
+//     }
+        
+    }
+ }
+ .carousel .carousel-inner .carousel-item .carousel-caption .btn {
+     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+     border-radius: 50px;
+     margin-top: 3%;
+     font-size: 0.6rem;
+     text-transform: uppercase;
+     padding: 2% 4%;
+     
+    }
+
+//     .carousel .carousel-inner .carousel-item .carousel-caption .btn:first-child {
+//         background-color: rgb(228, 228, 228);
+        
+//  }
+
+     
