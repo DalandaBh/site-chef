@@ -9,9 +9,17 @@ body {
 }
 
 .carousel-indicators li {
-  width: 0.8em;
-  height: 0.8em;
+  width: 0.7em;
+  height: 0.7em;
   border-radius: 100%;
+  color: grey;
+}
+
+.carousel-indicators .active {
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0.3em;
+  border: double 0.5em white;
 }
 
 .carousel-caption p {
@@ -161,12 +169,20 @@ header .bottom-deco {
 
 .nav-pills .icons:hover {
   color: #c42d40;
-  border-right: #c42d40;
 }
 
 .nav-pills p {
   font-family: 'Courgette', cursive;
   font-size: 1.4rem;
+}
+
+.menu img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.menu p {
+  font-size: 1rem;
 }
 
 .section-2 {

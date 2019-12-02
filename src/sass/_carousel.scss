@@ -6,11 +6,19 @@
 }
 .carousel-indicators {
     li {
-    width: 0.8em;
-    height: 0.8em;
+    width: 0.7em;
+    height: 0.7em;
     border-radius: 100%;
+    color: grey;
+    }
+    .active {
+        width: 0.5em;
+        height: 0.5em;
+        margin: 0.3em;
+        border: double 0.5em white;
     }
 }
+
 .carousel-caption {
 
 //     bottom: 15%;
