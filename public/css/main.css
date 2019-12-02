@@ -50,8 +50,8 @@ nav {
 }
 
 nav img {
-  height: 5%;
-  margin: 2% 4% 0 4%;
+  height: 20%;
+  margin: 3% 4% 0 4%;
 }
 
 nav .menu {
@@ -63,7 +63,6 @@ nav .menu {
 nav a {
   color: white;
   text-transform: uppercase;
-  font-size: 60%;
 }
 
 nav a:hover {
@@ -110,10 +109,6 @@ header .bottom-deco {
   font-size: 2.3rem;
 }
 
-.section-1 .our-story h5 .fa-concierge-bell {
-  color: white;
-}
-
 .title {
   margin-top: 2%;
 }
@@ -142,13 +137,36 @@ header .bottom-deco {
   right: 0;
 }
 
-.card-img {
-  border-radius: 100%;
-  border: solid 3px grey;
+.nav-pills {
+  text-align: center;
 }
 
-.colonne-2 {
-  display: inline-block;
+.nav-pills #v-pills-home-tab {
+  border-bottom: 2px solid lightgrey;
+  border-right: 4px solid #c42d40;
+}
+
+.nav-pills #v-pills-profile-tab, .nav-pills #v-pills-messages-tab, .nav-pills #v-pills-settings-tab {
+  border-bottom: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+.nav-pills #v-pills-settings1-tab {
+  border-right: 2px solid lightgrey;
+}
+
+.nav-pills .icons {
+  color: lightgrey;
+}
+
+.nav-pills .icons:hover {
+  color: #c42d40;
+  border-right: #c42d40;
+}
+
+.nav-pills p {
+  font-family: 'Courgette', cursive;
+  font-size: 1.4rem;
 }
 
 .section-2 {
@@ -175,5 +193,87 @@ header .bottom-deco {
 
 .chefs {
   margin: 0 4%;
+}
+
+.section-3 {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid rgba(15, 14, 14, 0);
+  margin-top: 3%;
+}
+
+.section-3 .book-your-table {
+  text-align: center;
+  margin: 3% 30%;
+}
+
+.section-3 .book-your-table h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.6rem;
+}
+
+.section-3 .book-your-table h5 .rouge {
+  color: #c42d40;
+  font-size: 2.3rem;
+}
+
+.section-3 .book-your-table .btn {
+  text-transform: uppercase;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.jumbotron {
+  text-align: center;
+  margin: 0 20%;
+  border-radius: 15px;
+  background-image: url(./../../public/images/book_table_bg.jpg);
+}
+
+.jumbotron p {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.jumbotron p .num {
+  font-size: 1.3rem;
+}
+
+.register-form {
+  margin-top: 8%;
+}
+
+.register-form .form {
+  margin: 3% 8% 3% 8%;
+}
+
+.register-form .form input {
+  border-radius: 10px;
+}
+
+.form-group select {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
