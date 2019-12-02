@@ -4,7 +4,7 @@
     background-color: #fff;
     border: 2px solid rgba(15, 14, 14, 0);
     margin-top: 3%;
-    .book-your-table {
+    .book-your-table, .titre-chef1 {
         text-align: center;
         margin : 3% 30%;
         h5 {
@@ -64,6 +64,7 @@
         margin: 3% 8% 3% 8%;
         input {
             border-radius: 10px;
+    
         }
     }
 }
@@ -71,4 +72,25 @@
     select {
     border-radius: 10px;
     }
+}
+.jumbotron {
+    a {
+        margin-top: 6%;
+        padding: 1.5% 5% ;
+    }
+}
+.salade {
+    margin-top: 3%;
+    .sla {
+        margin-right: 2%;
+    
+    }
+    
+    img {
+        
+        border: 4px solid lightgrey;
+        border-radius: 10px;
+        
+    }
+
 }

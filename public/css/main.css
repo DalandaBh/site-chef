@@ -51,7 +51,7 @@ body {
 
 nav {
   z-index: 1;
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   margin: auto;
@@ -100,6 +100,7 @@ header .bottom-deco {
   background-color: #fff;
   border: 2px solid rgba(15, 14, 14, 0);
   margin-top: 3%;
+  padding-bottom: 10%;
 }
 
 .section-1 .our-story {
@@ -176,13 +177,13 @@ header .bottom-deco {
   font-size: 1.4rem;
 }
 
-.menu img {
-  width: 100%;
-  border-radius: 100%;
+.galere {
+  padding-bottom: 5%;
 }
 
-.menu p {
-  font-size: 1rem;
+.menu img {
+  width: 70%;
+  border-radius: 100%;
 }
 
 .section-2 {
@@ -218,22 +219,22 @@ header .bottom-deco {
   margin-top: 3%;
 }
 
-.section-3 .book-your-table {
+.section-3 .book-your-table, .section-3 .titre-chef1 {
   text-align: center;
   margin: 3% 30%;
 }
 
-.section-3 .book-your-table h5 {
+.section-3 .book-your-table h5, .section-3 .titre-chef1 h5 {
   font-family: 'Courgette', cursive;
   font-size: 1.6rem;
 }
 
-.section-3 .book-your-table h5 .rouge {
+.section-3 .book-your-table h5 .rouge, .section-3 .titre-chef1 h5 .rouge {
   color: #c42d40;
   font-size: 2.3rem;
 }
 
-.section-3 .book-your-table .btn {
+.section-3 .book-your-table .btn, .section-3 .titre-chef1 .btn {
   text-transform: uppercase;
 }
 
@@ -290,6 +291,24 @@ header .bottom-deco {
 }
 
 .form-group select {
+  border-radius: 10px;
+}
+
+.jumbotron a {
+  margin-top: 6%;
+  padding: 1.5% 5%;
+}
+
+.salade {
+  margin-top: 3%;
+}
+
+.salade .sla {
+  margin-right: 2%;
+}
+
+.salade img {
+  border: 4px solid lightgrey;
   border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
