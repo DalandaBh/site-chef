@@ -1,17 +1,21 @@
 .section-2 {
-    background-color: black;
-    height: auto;
+    background-image: url(./../../public/images/team_background.jpg);
+    position: relative;
+    background-size: 480%;
+    background-position: 43%;
+    // filter: brightness(45%);
+    
     text-align: center;
     color: white;
     margin-top: 3%;
     padding: 0 3%;
     h5 {
         font-family: 'Courgette', cursive;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         
         .rouge {
             color: $color1;
-            font-size: 2.3rem;
+            font-size: 2.4rem;
     
         }
     }
@@ -20,9 +24,11 @@
  .titre-chef{
      padding: 6% 0;
  }
-// .chefs {
-//     margin: 0 4%;
-// }
+ .chefs {
+     margin: 0 4% ;
+     padding-bottom: 2%;
+    z-index:9 ;
+ }
 // .container {
 //     margin: 0 4%;
 // }

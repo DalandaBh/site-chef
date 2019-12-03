@@ -104,7 +104,7 @@ header .bottom-deco {
   background-color: #fff;
   border: 2px solid rgba(15, 14, 14, 0);
   margin-top: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .section-1 .our-story {
@@ -115,12 +115,12 @@ header .bottom-deco {
 
 .section-1 .our-story h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .section-1 .our-story h5 .rouge {
   color: #c42d40;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 .title {
@@ -182,18 +182,17 @@ header .bottom-deco {
 
 .menu img {
   width: 65%;
-  border: 3px solid lightgray;
+  border: 2px solid lightgray;
   border-radius: 100%;
 }
 
 .deco {
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
 }
 
 .hey {
-  padding-bottom: 2%;
-  border-bottom: dashed lightgray;
+  padding-bottom: 1%;
 }
 
 .gras {
@@ -208,9 +207,20 @@ header .bottom-deco {
   font-size: 0.9rem;
 }
 
+.bdr {
+  border-bottom: 1px dashed lightgray;
+  padding-bottom: 3%;
+}
+
+.bglight {
+  background-color: lightgray;
+}
+
 .section-2 {
-  background-color: black;
-  height: auto;
+  background-image: url(./../../public/images/team_background.jpg);
+  position: relative;
+  background-size: 480%;
+  background-position: 43%;
   text-align: center;
   color: white;
   margin-top: 3%;
@@ -219,16 +229,22 @@ header .bottom-deco {
 
 .section-2 h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .section-2 h5 .rouge {
   color: #c42d40;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 .titre-chef {
   padding: 6% 0;
+}
+
+.chefs {
+  margin: 0 4%;
+  padding-bottom: 2%;
+  z-index: 9;
 }
 
 .section-3 {
@@ -245,12 +261,12 @@ header .bottom-deco {
 
 .section-3 .book-your-table h5, .section-3 .titre-chef1 h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .section-3 .book-your-table h5 .rouge, .section-3 .titre-chef1 h5 .rouge {
   color: #c42d40;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 .section-3 .book-your-table .btn, .section-3 .titre-chef1 .btn {
@@ -319,35 +335,33 @@ header .bottom-deco {
 }
 
 .salade {
-  margin-top: 3%;
-}
-
-.salade .card {
-  margin-right: 2%;
+  margin: 5% 5% 3% 10%;
 }
 
 .salade .card .btn2 {
+  background-color: #c42d40;
   position: relative;
   text-align: center;
-  width: 75%;
-  border-radius: 5px;
+  width: 70%;
+  border-radius: 10px;
   padding: 3% 0;
-  margin-left: 13%;
+  margin-left: 5%;
   bottom: 30px;
+  font-size: 0.9rem;
 }
 
 .salade .card img {
   border: 4px solid lightgrey;
   border-radius: 15px;
-  width: 100%;
+  width: 80%;
   height: 230px;
 }
 
 .btn1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1rem;
-  margin-bottom: 10%;
+  font-size: 0.5rem;
+  margin-bottom: 7%;
 }
 
 .btn1 .btn {
@@ -358,40 +372,45 @@ header .bottom-deco {
   font-size: 0.8rem;
 }
 
+.bold {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .section-4 {
   position: relative;
   background-image: url(./../../public/images/testimonials_background.jpg);
-  background-size: 500%;
-  background-position: 50%;
+  background-size: 850%;
+  background-position: 90%;
   margin: 5% 0;
   padding: 4% 0%;
 }
 
 .section-4 .client {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .section-4 .client h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: white;
 }
 
 .section-4 .client h5 .rouge {
   color: #c42d40;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 .testimony {
-  margin: 3% 0;
+  margin: 5% 0 3% 11%;
   color: white;
 }
 
 .testimony .manager {
   border: 1px solid lightgrey;
   border-radius: 10px;
-  width: 40%;
+  margin: 0 1%;
   padding-top: 2%;
 }
 
@@ -407,7 +426,7 @@ header .bottom-deco {
 }
 
 .section-5 {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .section-5 .contact {
@@ -417,13 +436,13 @@ header .bottom-deco {
 
 .section-5 .contact h5 {
   font-family: 'Courgette', cursive;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: black;
 }
 
 .section-5 .contact h5 .rouge {
   color: #c42d40;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 
 .contact1 {

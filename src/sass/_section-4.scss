@@ -2,36 +2,38 @@
 .section-4 {
     position: relative;
     background-image: url(./../../public/images/testimonials_background.jpg);
-    background-size: 500%;
-    background-position: 50%;
+    background-size: 850%;
+    background-position: 90%;
+
     margin: 5% 0;
     padding: 4% 0%;
 
     .client {
         text-align: center;
         // margin : 5% 30%;
-        margin-top: 5%;
+        margin-top: 2%;
         h5 {
-        
+
             font-family: 'Courgette', cursive;
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             color: white;
             .rouge {
                 color: $color1;
-                font-size: 2.3rem;
-    
+                font-size: 2.4rem;
+
             }
         }
     }
 }
 .testimony {
-    margin: 3% 0;
+    margin: 5% 0 3% 11%;
+
     color: white;
-    
+
     .manager {
         border: 1px solid lightgrey;
         border-radius: 10px;
-        width: 40%;
+        margin: 0 1%;
         padding-top: 2%;
         p {
             font-size: 0.8rem;
@@ -39,14 +41,14 @@
         }
 
     }
-    
-     
+
+
     img {
         border-radius: 100%;
         border : 4px solid lightgrey;
         width: 80%;
     }
-} 
+}
 // .space {
-//     margin: 3%;
-// }  
+//      margin-right: 3%;
+//  }
