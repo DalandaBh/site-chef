@@ -21,6 +21,7 @@
         .btn {
             text-transform: uppercase;
         }
+       
     }
 }
 .top-left {
@@ -79,18 +80,50 @@
         padding: 1.5% 5% ;
     }
 }
-.salade {
+.salade { 
     margin-top: 3%;
-    .sla {
+    .card {
         margin-right: 2%;
-    
-    }
-    
-    img {
         
-        border: 4px solid lightgrey;
-        border-radius: 10px;
+        .btn2 {
+            position: relative;
+            text-align: center;
+            width: 75%;
+            border-radius: 5px;
+            padding: 3% 0;
+            margin-left: 13%;
+            bottom: 30px;
+            
+          
+            }
+    
+    
+    
+        img {
+            
+            border: 4px solid lightgrey;
+            border-radius: 15px;
+            width: 100%;
+            height: 230px;
+            
         
+        
+            }
+        }
+
     }
 
+.btn1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 10%;
+    .btn {
+        padding: 1% 2%;
+    }
+}
+.card-body {
+    p {
+        font-size: 0.8rem;
+    }
 }

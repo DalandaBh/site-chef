@@ -1,0 +1,39 @@
+.section-5 {
+    margin-bottom: 5%;
+    .contact {
+        text-align: center;
+        // margin : 5% 30%;
+        margin-top: 5%;
+       
+        h5 {
+        
+            font-family: 'Courgette', cursive;
+            font-size: 1.6rem;
+            color: black;
+            .rouge {
+                color: $color1;
+                font-size: 2.3rem;
+    
+            }
+        }
+    }
+}
+.contact1{
+    text-align: center;
+    width: 30%;
+    height: 35%;
+    background-color: $color1;
+    border-radius: 10px;
+   
+    .list-group {
+        margin: 18% 0 10% 0;
+        .list-group-item {
+            
+            background-color: $color1;
+            color: white;
+            p {
+                font-size: 0.8rem;
+            }
+        } 
+    }
+}

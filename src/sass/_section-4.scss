@@ -1,0 +1,52 @@
+//Section-4
+.section-4 {
+    position: relative;
+    background-image: url(./../../public/images/testimonials_background.jpg);
+    background-size: 500%;
+    background-position: 50%;
+    margin: 5% 0;
+    padding: 4% 0%;
+
+    .client {
+        text-align: center;
+        // margin : 5% 30%;
+        margin-top: 5%;
+        h5 {
+        
+            font-family: 'Courgette', cursive;
+            font-size: 1.6rem;
+            color: white;
+            .rouge {
+                color: $color1;
+                font-size: 2.3rem;
+    
+            }
+        }
+    }
+}
+.testimony {
+    margin: 3% 0;
+    color: white;
+    
+    .manager {
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        width: 40%;
+        padding-top: 2%;
+        p {
+            font-size: 0.8rem;
+            padding-top: 2%;
+        }
+
+    }
+    
+     
+    img {
+        border-radius: 100%;
+        border : 4px solid lightgrey;
+        width: 80%;
+    }
+} 
+// .space {
+//     margin: 3%;
+// }  

@@ -9,6 +9,7 @@
     .our-story {
         text-align: center;
         margin : 3% 30%;
+        padding-bottom: 3%;
         h5 {
         
             font-family: 'Courgette', cursive;
@@ -48,16 +49,16 @@
 .nav-pills {
     text-align: center;
     #v-pills-home-tab{
-        border-bottom: 2px solid lightgrey;
-        border-right: 4px solid $color1;
+         border-bottom: 2px solid lightgrey;
+        // border-right: 4px solid $color1;
     }
     #v-pills-profile-tab, #v-pills-messages-tab, #v-pills-settings-tab{
         border-bottom: 2px solid lightgrey;
-        border-right: 2px solid lightgrey;
+        // border-right: 2px solid lightgrey;
     }
-    #v-pills-settings1-tab {
-        border-right: 2px solid lightgrey;
-    }
+    // #v-pills-settings1-tab {
+    //     border-right: 2px solid lightgrey;
+    // }
     .icons {
         color: lightgrey;
     }
@@ -76,11 +77,30 @@
     padding-bottom: 5%;
 }
 .menu {
-
+    
+    
     img {
-        width: 70%;
+        width: 65%;
+        border: 3px solid lightgray;
         border-radius: 100%;
     }
     
 }
-
+.deco {
+    padding-top: 10%;
+    text-align: center;
+}
+.hey {
+    padding-bottom: 2%;
+    border-bottom: dashed lightgray ;
+}
+.gras {
+    font-weight: bold;
+    
+}
+.prix {
+    margin-left: 6%;
+}
+.petite {
+    font-size: 0.9rem;
+}

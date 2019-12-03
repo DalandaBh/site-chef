@@ -57,9 +57,13 @@ nav {
   margin: auto;
 }
 
+nav .i-mage {
+  margin: 2% 3% 0 3%;
+}
+
 nav img {
-  height: 20%;
-  margin: 3% 4% 0 4%;
+  height: 85px;
+  width: 65px;
 }
 
 nav .menu {
@@ -106,6 +110,7 @@ header .bottom-deco {
 .section-1 .our-story {
   text-align: center;
   margin: 3% 30%;
+  padding-bottom: 3%;
 }
 
 .section-1 .our-story h5 {
@@ -152,16 +157,10 @@ header .bottom-deco {
 
 .nav-pills #v-pills-home-tab {
   border-bottom: 2px solid lightgrey;
-  border-right: 4px solid #c42d40;
 }
 
 .nav-pills #v-pills-profile-tab, .nav-pills #v-pills-messages-tab, .nav-pills #v-pills-settings-tab {
   border-bottom: 2px solid lightgrey;
-  border-right: 2px solid lightgrey;
-}
-
-.nav-pills #v-pills-settings1-tab {
-  border-right: 2px solid lightgrey;
 }
 
 .nav-pills .icons {
@@ -182,8 +181,31 @@ header .bottom-deco {
 }
 
 .menu img {
-  width: 70%;
+  width: 65%;
+  border: 3px solid lightgray;
   border-radius: 100%;
+}
+
+.deco {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.hey {
+  padding-bottom: 2%;
+  border-bottom: dashed lightgray;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.prix {
+  margin-left: 6%;
+}
+
+.petite {
+  font-size: 0.9rem;
 }
 
 .section-2 {
@@ -192,6 +214,7 @@ header .bottom-deco {
   text-align: center;
   color: white;
   margin-top: 3%;
+  padding: 0 3%;
 }
 
 .section-2 h5 {
@@ -206,10 +229,6 @@ header .bottom-deco {
 
 .titre-chef {
   padding: 6% 0;
-}
-
-.chefs {
-  margin: 0 4%;
 }
 
 .section-3 {
@@ -303,12 +322,184 @@ header .bottom-deco {
   margin-top: 3%;
 }
 
-.salade .sla {
+.salade .card {
   margin-right: 2%;
 }
 
-.salade img {
+.salade .card .btn2 {
+  position: relative;
+  text-align: center;
+  width: 75%;
+  border-radius: 5px;
+  padding: 3% 0;
+  margin-left: 13%;
+  bottom: 30px;
+}
+
+.salade .card img {
   border: 4px solid lightgrey;
+  border-radius: 15px;
+  width: 100%;
+  height: 230px;
+}
+
+.btn1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 10%;
+}
+
+.btn1 .btn {
+  padding: 1% 2%;
+}
+
+.card-body p {
+  font-size: 0.8rem;
+}
+
+.section-4 {
+  position: relative;
+  background-image: url(./../../public/images/testimonials_background.jpg);
+  background-size: 500%;
+  background-position: 50%;
+  margin: 5% 0;
+  padding: 4% 0%;
+}
+
+.section-4 .client {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.section-4 .client h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.section-4 .client h5 .rouge {
+  color: #c42d40;
+  font-size: 2.3rem;
+}
+
+.testimony {
+  margin: 3% 0;
+  color: white;
+}
+
+.testimony .manager {
+  border: 1px solid lightgrey;
   border-radius: 10px;
+  width: 40%;
+  padding-top: 2%;
+}
+
+.testimony .manager p {
+  font-size: 0.8rem;
+  padding-top: 2%;
+}
+
+.testimony img {
+  border-radius: 100%;
+  border: 4px solid lightgrey;
+  width: 80%;
+}
+
+.section-5 {
+  margin-bottom: 5%;
+}
+
+.section-5 .contact {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.section-5 .contact h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.section-5 .contact h5 .rouge {
+  color: #c42d40;
+  font-size: 2.3rem;
+}
+
+.contact1 {
+  text-align: center;
+  width: 30%;
+  height: 35%;
+  background-color: #c42d40;
+  border-radius: 10px;
+}
+
+.contact1 .list-group {
+  margin: 18% 0 10% 0;
+}
+
+.contact1 .list-group .list-group-item {
+  background-color: #c42d40;
+  color: white;
+}
+
+.contact1 .list-group .list-group-item p {
+  font-size: 0.8rem;
+}
+
+.footer {
+  position: relative;
+  background-image: url(./../../public/images/footer_background.jpg);
+  background-position: center;
+  height: auto;
+  color: white;
+  padding: 4% 0;
+}
+
+.footer .footer-deco {
+  background-image: url(./../../public/images/footer_bottom_decoration_img.png);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 15px;
+  z-index: 7;
+}
+
+.i-cons .fa-facebook-f, .i-cons .fa-google-plus-g, .i-cons .fa-pinterest-p, .i-cons .fa-linkedin-in {
+  margin: 3%;
+}
+
+.p-chicken {
+  top: 5%;
+}
+
+.chicken {
+  right: 3%;
+}
+
+.chicken .m-chicken {
+  margin-bottom: 20%;
+}
+
+.m-ftr {
+  margin: 0 5%;
+}
+
+.h-4 {
+  padding-bottom: 5%;
+}
+
+.tag .btn {
+  background-color: #c42d40;
+  margin: 1%;
+  padding: 1% 3%;
+}
+
+.ftr {
+  background-color: #c42d40;
+  padding: 2% 0;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=main.css.map */
